@@ -87,10 +87,13 @@ Model Deployment:
 
 ## Results:
 
-  Original Dataset: High accuracy (~99.9%) but lower recall (~60-65%) due to class imbalance, limiting fraud detection.
-  Undersampled Dataset: Balanced dataset improved recall (~91-93%) and F1-score (~92-94%).
-  Oversampled Dataset (SMOTE): Best performance with ~99.5% accuracy, ~99% precision, ~99% recall, and ~99% F1-score for Decision Tree.
-  Sample Prediction: Correctly classified a test transaction as "Norm
+  *Original Dataset:* High accuracy (~99.9%) but lower recall (~60-65%) due to class imbalance, limiting fraud detection.
+  
+  *Undersampled Dataset:* Balanced dataset improved recall (~91-93%) and F1-score (~92-94%).
+  
+  *Oversampled Dataset (SMOTE):* Best performance with ~99.5% accuracy, ~99% precision, ~99% recall, and ~99% F1-score for Decision Tree.
+  
+  *Sample Prediction:* Correctly classified a test transaction as "Norm
 
 
 
