@@ -1,17 +1,16 @@
-# Credit-Card-Fraud-Detection-Model-
+## Credit-Card-Fraud-Detection-Model
 
-##Overview:
+*Overview:*
 
 This project implements a machine learning-based credit card fraud detection system using Python. It processes the creditcard.csv dataset, addresses class imbalance using undersampling and oversampling (SMOTE), trains Logistic Regression and Decision Tree Classifier models, and evaluates their performance using accuracy, precision, recall, and F1-score. The final Decision Tree model is saved for real-time predictions.
 
-##Dataset:
+*Dataset:*
 
 - **Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - **Features:** 284,807 transactions | 492 frauds (~0.17%)
 - **Target Variable:** Class (0 = Normal, 1 = Fraud)
 
-
-##Prerequisites:
+*Prerequisites:*
 
 **Required Python libraries:**
 
@@ -23,11 +22,11 @@ This project implements a machine learning-based credit card fraud detection sys
    matplotlib==3.9.2
    joblib==1.4.2
 
-  Install them using:
+   Install them using:
 
-  pip install pandas==2.1.4 numpy==1.26.4 scikit-learn==1.5.1 imblearn==0.12.3 seaborn==0.13.2 matplotlib==3.9.2 joblib==1.4.2
+   pip install pandas==2.1.4 numpy==1.26.4 scikit-learn==1.5.1 imblearn==0.12.3 seaborn==0.13.2 matplotlib==3.9.2 joblib==1.4.2
 
-##Project Structure:
+## Project Structure:
 
 Data Preprocessing:
 
@@ -79,14 +78,14 @@ Model Deployment:
 
   Tested the model on a sample transaction, correctly predicting it as "Normal."
 
-##How to Run:
+## How to Run:
 
    Place creditcard.csv in the same directory as the script.
    Install required libraries (see Prerequisites).
    Run the script:python credit_card_fraud_detection.py
    Outputs include model performance metrics and a sample transaction prediction.
 
-##Results:
+## Results:
 
   Original Dataset: High accuracy (~99.9%) but lower recall (~60-65%) due to class imbalance, limiting fraud detection.
   Undersampled Dataset: Balanced dataset improved recall (~91-93%) and F1-score (~92-94%).
